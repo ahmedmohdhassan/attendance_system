@@ -1,0 +1,48 @@
+name: attendance_system
+description: A new Flutter project.
+
+publish_to: 'none' # Remove this line if you wish to publish to pub.dev
+
+version: 1.0.0+1
+
+environment:
+  sdk: ">=2.16.2 <3.0.0"
+
+dependencies:
+  flutter:
+    sdk: flutter
+
+
+  cupertino_icons: ^1.0.2
+  excel_to_json: ^0.0.2-dev.1
+  sqflite: ^2.0.2+1
+  provider: ^6.0.3
+  path_provider: ^2.0.11
+  syncfusion_flutter_xlsio: ^20.2.38-beta
+  open_file: ^3.2.1
+  flutter_barcode_scanner: ^2.0.0
+  fl_chart: ^0.55.0
+  audioplayers: ^1.0.1
+  device_info_plus: ^3.0.0
+  shared_preferences: ^2.0.15
+  
+  
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+
+  flutter_lints: ^1.0.0
+
+flutter:
+
+  uses-material-design: true
+
+  assets:
+    - assets/scannersound.mp3
+  #   - images/a_dot_ham.jpeg
+
+  fonts:
+    - family: CourierPrime
+      fonts:
+        - asset: fonts/CourierPrime-Regular.ttf
